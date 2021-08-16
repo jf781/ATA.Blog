@@ -24,7 +24,7 @@ Azure Arc works by having an agent that runs on the resource.  When this agent i
 
 Let's assume we have a VM running in VMware on-premises that we'd like to manage in Azure Arc.   The first thing we need to do is download and install the agent to that machine.  To do that let's go to our Azure Portal and search for Azure Arc and select "Servers - Azure Arc" from the list.  (We can see other Arc services listed but that will be for future blog posts). Then
 
-(Would typically insert picture here with search listed)
+![Search for Azure Arc](images/intro-001.png)
 
 We will now select "Add" in the top left.   This will pull up a screen giving us a few different options on what type of installer we would like to use.   Since we are only doing a single VM this time we will select "Add a single server", but will keep this in mind for future deployments. 
 
